@@ -29,6 +29,10 @@
             display: inline-block;
             min-width: 10%;
         }
+        dl.inline dt:after {
+            display: inline-block;
+            content: ':';
+        }
         .header {
             background-color: #222222;
             height: 10%;
@@ -53,15 +57,13 @@
     <div class="body">
         <div class="about_us">
             <div>Place where affordability meets latest fashion</div>
-            Contact us:
-            <dl class="inline">
-                <dt>Phone:</dt>
-                <dd></dd>
-                <dt>Email</dt>
-                <dd>fasiion2014@gmail.com</dd>
-                <dt>Facebook</dt>
-                <dd>https://www.facebook.com/pages/Fasiion/713869525393318</dd>
-            </dl>
+            <div style="display: inline-block">
+                <span style="float: left">Contact us</span>
+                <div style="float: right; padding-left: 2px">
+                    <a href="mailto:contact@fasiion.com"><img src="public_html/assets/images/mail.png" alt="contact@fasiion.com" height="18px"></a>
+                    <a href="https://www.facebook.com/pages/Fasiion/713869525393318"><img src="public_html/assets/images/FB-transparent.png" height="18px"></a>
+                </div>
+            </div>
         </div>
     </div>
     <div class="footer"></div>
