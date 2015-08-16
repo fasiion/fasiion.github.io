@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html style="height: 100%">
+<head lang="en">
+    <meta charset="UTF-8">
+    <title></title>
+    <style>
+        .dark {
+            background-color: #0f0f0f;
+            height: 100%;
+        }
+        .center {
+            margin-left: auto;
+            margin-right: auto;
+            width: 70%;
+            height: 100%;
+            background-color: rgb(255, 255, 255);
+            background-image: url("public_html/assets/images/background.jpg");
+            background-size: 100%;
+        }
+        dl.inline dd {
+            display: inline;
+            margin: 0;
+        }
+        dl.inline dd:after{
+            display: block;
+            content: '';
+        }
+        dl.inline dt{
+            display: inline-block;
+            min-width: 10%;
+        }
+        dl.inline dt:after {
+            display: inline-block;
+            content: ':';
+        }
+        .header {
+            background-color: #222222;
+            height: 10%;
+            display: block;
+        }
+        .logo {
+            height: 100%;
+            width: 10%;
+        }
+        .about_us {
+            float: right;
+        }
+    </style>
+</head>
+<body class="dark">
+<div class="center">
+    <div class="header">
+        <div class="logo">
+            <img src="public_html/assets/images/logo.png" height="100%" width="100%">
+        </div>
+    </div>
+    <div class="body">
+        <div class="about_us">
+            <div>Place where affordability meets latest fashion</div>
+            <div style="display: inline-block">
+                <span style="float: left">Contact us</span>
+                <div style="float: right; padding-left: 2px">
+                    <a href="mailto:contact@fasiion.com"><img src="public_html/assets/images/mail.png" alt="contact@fasiion.com" height="18px"></a>
+                    <a href="https://www.facebook.com/pages/Fasiion/713869525393318"><img src="public_html/assets/images/FB-transparent.png" height="18px"></a>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="footer"></div>
+
+</div>
+
+</body>
+</html>
